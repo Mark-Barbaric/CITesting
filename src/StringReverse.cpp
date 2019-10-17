@@ -6,11 +6,10 @@ StringReverse::StringReverse(const std::string& str) {
 
     for(int i = str.length() - 1; i >= 0; --i)
         revStr += str[i];
-
 }
 
 bool StringReverse::empty() const noexcept {
-    return revStr.length() > 0;
+    return revStr == "";
 }
 
 bool StringReverse::operator==(const std::string& other) const noexcept {
