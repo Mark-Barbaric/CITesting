@@ -4,6 +4,8 @@ using namespace CPPLondonUni;
 
 StringReverse::StringReverse(const std::string& str) {
 
+    for(int i = str.size() - 1; i >= 0; ++i)
+        revStr += str[i];
 }
 
 bool StringReverse::empty() const noexcept {
@@ -11,9 +13,11 @@ bool StringReverse::empty() const noexcept {
 }
 
 bool StringReverse::operator==(const std::string& other) const noexcept {
-    return true;
+
+    return other == revStr;
 }
 
 StringReverse::operator std::string() const {
-    return {};
+
+    return revStr;
 }

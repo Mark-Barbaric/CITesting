@@ -8,12 +8,10 @@ namespace CPPLondonUni {
         StringReverse() = default;
 
         explicit StringReverse(const std::string& str);
-
         bool empty() const noexcept;
-
         bool operator==(const std::string& other) const noexcept;
-
         operator std::string() const;
+
     private:
         std::string revStr;
     };

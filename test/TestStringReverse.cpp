@@ -13,5 +13,4 @@ TEST_CASE("A StringReverse constructed with 'Hello World' becomes 'dlroW olleH'"
     const StringReverse s{"Hello World"};
     CAPTURE(s);
     REQUIRE(s == "dlroW olleH");
-
 }
