@@ -4,7 +4,7 @@ using namespace CPPLondonUni;
 
 StringReverse::StringReverse(const std::string& str) {
 
-    for(int i = str.size() - 1; i >= 0; ++i)
+    for(int i = str.size() - 1; i >= 0; --i)
         revStr += str[i];
 }
 
