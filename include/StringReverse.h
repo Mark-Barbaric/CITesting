@@ -13,6 +13,6 @@ namespace CPPLondonUni {
         operator std::string() const;
 
     private:
-        std::string revStr;
+        std::string revStr {""};
     };
 }
