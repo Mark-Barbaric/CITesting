@@ -16,6 +16,7 @@ int main() {
     std::string name;
     std::getline(std::cin, name);
     StringReverse nameRev{name};
+    std::cout << nameRev << std::endl;
 
     if (nameRev.empty())
         std::cout << "You didn't enter a name\n";

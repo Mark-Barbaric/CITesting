@@ -4,12 +4,12 @@ using namespace CPPLondonUni;
 
 StringReverse::StringReverse(const std::string& str) {
 
-    for(int i = str.size() - 1; i >= 0; --i)
+    for(int i = str.length() - 1; i >= 0; --i)
         revStr += str[i];
 }
 
 bool StringReverse::empty() const noexcept {
-    return revStr.size() > 0;
+    return revStr.length() > 0;
 }
 
 bool StringReverse::operator==(const std::string& other) const noexcept {
