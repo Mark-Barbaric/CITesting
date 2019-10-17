@@ -9,10 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c8f31ee-f052-4e40-959e-b9333c16bf9f" name="Default" comment="Fixing empty() method.">
-      <change beforePath="$PROJECT_DIR$/src/StringReverse.cpp" afterPath="$PROJECT_DIR$/src/StringReverse.cpp" />
-      <change beforePath="$PROJECT_DIR$/test/TestStringReverse.cpp" afterPath="$PROJECT_DIR$/test/TestStringReverse.cpp" />
-    </list>
+    <list default="true" id="7c8f31ee-f052-4e40-959e-b9333c16bf9f" name="Default" comment="Fixing empty() method." />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStringReverse.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestStringReverse.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TestStringReverse.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -67,13 +64,13 @@
         <entry file="file://$PROJECT_DIR$/include/StringReverse.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringReverse.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringReverse.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StringReverse.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -218,7 +215,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571315039714</updated>
-      <workItem from="1571315042580" duration="7804000" />
+      <workItem from="1571315042580" duration="8438000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Integration Changes.&#10;&#10;Jenkins build failing with ansicolour option, so have removed this for the time being.">
       <created>1571316863613</created>
@@ -238,7 +235,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7804000" />
+    <option name="totallyTimeSpent" value="8438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="23" width="1343" height="848" extended-state="0" />
@@ -343,6 +340,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestStringReverse.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -354,7 +359,7 @@
     <entry file="file://$PROJECT_DIR$/include/StringReverse.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -363,14 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestStringReverse.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding />
         </state>
       </provider>
