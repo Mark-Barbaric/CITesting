@@ -2,9 +2,6 @@ pipeline {
     agent any
     stages {
         stage('Build') {
-            environment {
-                CLICOLOR_FORCE = "1"
-            }
             steps {
                 cmakeBuild buildDir: 'build', installation: 'inSearchPath', steps: [[withCmake: true]]
             }
