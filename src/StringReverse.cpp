@@ -9,7 +9,7 @@ StringReverse::StringReverse(const std::string& str) {
 }
 
 bool StringReverse::empty() const noexcept {
-    return true;
+    return revStr.size() > 0;
 }
 
 bool StringReverse::operator==(const std::string& other) const noexcept {
